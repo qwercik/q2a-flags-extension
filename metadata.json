@@ -1,0 +1,12 @@
+{
+    "name": "Flags extenstion",
+    "uri": "https://github.com/qwercik/q2a-flags-extension",
+    "description": "Extend capabilities of flagging system with displaying author of flag and necessity of giving flag reason",
+    "version": "1.0",
+    "date": "2017-09-24",
+    "author": "Eryk Andrzejewski",
+    "author_uri": "https://github.com/qwercik",
+    "license": "MIT",
+    "update_uri": "https://raw.githubusercontent.com/qwercik/q2a-flags-extension/master/metadata.json",
+    "min_q2a": "1.5"
+}
