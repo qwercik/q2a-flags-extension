@@ -17,4 +17,9 @@
     Plugin Update Check URI: https://raw.githubusercontent.com/qwercik/q2a-flags-extension/master/metadata.json
 */
 
+if (!defined('QA_VERSION')) {
+    header('Location: ../../');
+    exit;
+}
 
+qa_register_plugin_module('event', 'flags-extension-event.php', 'flags_extension_event', 'Flags extension');
