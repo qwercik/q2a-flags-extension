@@ -22,4 +22,5 @@ if (!defined('QA_VERSION')) {
     exit;
 }
 
-qa_register_plugin_module('event', 'flags-extension-event.php', 'flags_extension_event', 'Flags extension');
+qa_register_plugin_module('event', 'flags-extension-event.php', 'flags_extension_event', 'Flags extension event');
+qa_register_plugin_layer('flags-extension-layer.php', 'Flags extension layer');
